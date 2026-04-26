@@ -18,17 +18,45 @@ The content focuses on practical problem-solving and command-line usage, reflect
 
 ## Repository Structure
 
-```
+The repository is organized by topics, following the structure of the Operating Systems course.
+
+```text
 Operating_systems_solutions/
 ├── README.md
-├── weeks/
-│   ├── week01/
+├── topics/
+│   ├── 02.commands/
 │   │   └── exercises.md
-│   ├── week02/
+│   ├── 03.pipes/
 │   │   └── exercises.md
-│   └── week03/
-│       └── exercises.md
+│   ├── 04.processes/
+│   │   └── exercises.md
+│   ├── 05.scripts/
+│   │   └── exercises.md
+│
+├── problem-book/
+│   └── 
+
 ```
+
+### Structure Explanation
+
+* **course/**
+  Contains solutions based on the official course repository, organized by topic (commands, pipes, processes, scripts).
+
+* **problem_book/**
+  Contains a large collection of additional and more advanced exercises, also organized by topic for consistency.
+
+
+### Naming Convention
+
+* Each topic folder follows the original naming from the course (e.g. `02.commands`, `03.pipes`)
+* Each file (`exercises.md`) contains both task descriptions and their solutions
+
+### Future Improvements
+
+* Add more solved exercises from external sources
+* Add notes sections with deeper explanations and examples
+
 
 ## Goals
 
